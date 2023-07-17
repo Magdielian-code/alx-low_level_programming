@@ -4,6 +4,8 @@
 
 /**
  *main - Entry point
+ *
+ * Description: Prints a random number which states if it's positive, negative or zero
  *return: Always 0 (Success)
  */
 int main(void)
@@ -15,13 +17,13 @@ int main(void)
 	
 	if (n > 0)
 	{
-    		printf("%i n is positive\n", n);
+    		printf("%d is positive\n", n);
 	} else if (n == 0)
 	{
-		printf("%i n is zero\n", n);
+		printf("%d is zero\n", n);
 	} else if (n < 0)
 	{
-    		printf("%i n, is negative\n", n);
+    		printf("%d is negative\n", n);
 	}
 
 	return (0);
