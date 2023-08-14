@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * this prints the name of a file
+ * main - prints the name of the file
  *
- * Returns Always 0 (success)
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-	printf("%s\n", _FILE_);
+	printf("%s\n", __FILE__);
 	return (0);
 }
