@@ -1,1 +1,1 @@
-This is all about low level programming
+This is about dynamic libraries
